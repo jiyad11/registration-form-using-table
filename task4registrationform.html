@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>task 4</title>
+    <style>
+        table{
+            border: 3PX solid black;
+            border-spacing: 4px;
+        }
+        th{
+            padding: 10px;
+        }
+        th,td{
+            background-color: rgb(0, 234, 255);
+            border: 1px solid black;
+        }
+       
+    </style>
+</head>
+<body>
+   <table>
+    <form>
+            <tr>
+                <th style="font-size: xx-large; color: red; background-color: yellow; height:50px" colspan="2">REGISTRATION FORM</th>
+            </tr>
+
+            <tr>
+                <th style="font-weight: 100;">Enter Name</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th style="font-weight: 100;">Enter Password</th>
+                <td><input type="password"></td>
+                    
+            </tr>
+            <tr>
+                
+                <th style="font-weight: 100;">Enter Address</th>
+                <td>
+                    <textarea name="enter address" id="" cols="30" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th style="font-weight: 100;">Select Game</th>
+                <td><input type="checkbox">
+                <label for="football">Football</label><br>
+                <input type="checkbox">
+                <label for="cricket">Cricket</label><br>
+                <input type="checkbox">
+                <label for="volleyball">Volleyball</label><br>
+                <input type="checkbox">
+                <label for="badminton">Badminton</label><br>
+                <input type="checkbox">
+                <label for="hockey">Hockey</label></td>
+            </tr>
+            <tr>
+                <th style="font-weight: 100;">Gender</th>
+                <td><input type="radio" id="male" name="gender">
+                    <label for="gender">Male</label>
+                    <input type="radio" id="female" name="gender">
+                    <label for="gender">Female</label>
+                   </td>
+            </tr>
+            <tr>
+                <th style="font-weight: 100;">Select Your Age</th>
+                <td><select>
+                    <option value="select">Select</option>
+                    <option value="1-17">1-17</option>
+                    <option value="18-24">18-24</option>
+                    <option value="25-39">25-39</option>
+                    <option value="40-59">40-59</option>
+                    <option value="60 or older">60 or older</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th style="font-weight: 100;">Select Photo</th>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+              <th colspan="100px">
+                <input style="width: 150px; height: 50px;" type="button" value="click me">
+                <input style="width: 150px; height: 50px;" type="reset" value="reset">
+                <input style="width: 150px; height: 50px;" type="submit" value="submit form">
+              </th>
+            </tr>
+
+      </form>
+    </table>
+</body>
+</html>
